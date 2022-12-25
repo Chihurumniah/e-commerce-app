@@ -27,7 +27,7 @@ const HomeSlides = ({color, categories, shopDsc}) => {
                     <Carousel.Caption>
                       <div className='d-flex justify-content-center'>
                         <div className={styles.transparent}>
-                          <h3>{item.category}</h3>
+                        <a className={styles.productCart} href={'#products'}>{item.category}</a>
                           <p>{shopDsc}</p>
                         </div>
                       </div>

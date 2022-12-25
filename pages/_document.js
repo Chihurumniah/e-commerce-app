@@ -8,13 +8,13 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        
+          <link href="/style.css" rel="stylesheet" />
+          <link href="/responsive.css" rel="stylesheet" />
+          <link href="/font-awesome.min.css" rel="stylesheet" />
       </Head>
       <body>
         <Main />
-        <NextScript>
-       
-        </NextScript>
+        <NextScript></NextScript>
       </body>
     </Html>
   )

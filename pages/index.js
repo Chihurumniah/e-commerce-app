@@ -1,5 +1,7 @@
 import  Slides  from "../elements/home/Slides";
 import  Products  from "../elements/home/Products";
+//import SellectCart from "../components/SellectCart";
+
 
 //({color, data, shopDsc})
 let siteConfig = {
@@ -61,6 +63,7 @@ const Home = () => {
                   categories={JSON.stringify(siteConfig.categories)}
                   shopDsc={siteConfig.shopDsc}
                 />
+                
                 <Products 
                   products={JSON.stringify(products)} 
                   btnColor={siteConfig.btnColor} 
@@ -69,3 +72,10 @@ const Home = () => {
           )
     }
 export default Home;
+
+/**
+ * <SellectCart 
+                  category={"cartegories"} 
+                  btnColor={siteConfig.btnColor}
+                />
+ */

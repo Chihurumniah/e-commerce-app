@@ -921,22 +921,6 @@ a:focus {
    font-size: 25px;
 }
 
-.cart{
-   position: fixed;
-   top: 60%;
-   right: 15px;
-   font-size: 30px;
-   cursor: pointer;
-   color: #FF5733;
-}
-
-
-.cart-items{
-   position: fixed;
-   top: 59%;
-   right: 20px;
-   font-size: 13px;
-}
 
 /*SELLECT STYLES*/
 *,

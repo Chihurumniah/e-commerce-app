@@ -11,7 +11,7 @@
  */
 const Product = ({name, img, dsc, price, btnColor, product}) => {
         return (
-            <div className="col-md-6 ">
+            <div id="products" className="col-md-6 ">
             <div className="box">
             <div  className="img-box">
                 <img  src={ img } alt="" />

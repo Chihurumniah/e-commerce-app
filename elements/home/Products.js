@@ -1,4 +1,5 @@
-import Product from "./Pruduct";
+
+import Product from "./Pruduct"
 
 /**
  * 
@@ -29,11 +30,7 @@ const Products = ({products, btnColor}) => {
                        </div>
                       </div>
                     </section>
-
-                    <a id="btn-cart" className="cart cart-select" href="#cart">
-                        <span className="cart-items">0</span>
-                        <i className="fa fa-cart-plus" aria-hidden="true"></i>
-                    </a>
+                    
                 </>
             )
 }
